@@ -1,0 +1,69 @@
+<html>
+<head>
+<title>Test Canvas</title>
+</head>
+<body>
+
+<h1>Test Canvas</h1>
+<canvas id="canvas" width="600" height="400" style="border:4px solid rgb(0, 0, 0)">
+Canvas Not Supported
+</canvas>
+<p id="demo"></p>
+<p id="ind_count"></p>
+<script type="text/javascript" src="GameObject.js"></script>
+<script type="text/javascript" src="Ball.js"></script>
+<script type="text/javascript" src="RectObj.js"></script>
+<script type="text/javascript" src="Paddle.js"></script>
+<script type="text/javascript" src="Triangle.js"></script>
+<script type="text/javascript" src="Brick.js"></script>
+<script type="text/javascript" src="Pentagon.js"></script>
+<script type="text/javascript" src="collisonFunctions.js"></script>
+
+<script>
+    // Accessing the previously created canvas
+    const canvas = document.getElementById("canvas");
+    const ctx = canvas.getContext("2d");
+
+    // Code for triangle
+    let pt_2 = {x: 50, y: 150};
+    let pt_3 = {x: 30, y: 110};
+    let tri_1 = new Triangle(10, 150, "black", "red", "triangle1", ctx, pt_2, pt_3);
+
+    // Code for ball
+    let ball_rad = 15;
+    let ball_1 = new Ball(50, 25, "black", "orange", "ball1", ctx, ball_rad);
+    //let ball_5 = new Ball(300, 300, "black", "orange", "ball5", ctx, ball_rad);
+    //let ball_6 = new Ball(200, 100, "black", "orange", "ball2", ctx, ball_rad);
+
+    //Creating a rect object
+    let rect1 = new RectObject(300, 300, "black", "cyan", "rect1", ctx, 50, 25);
+
+    //creating a paddle
+    let pad = new Paddle(350, 390, "cyan", "blue", "bottom paddle", ctx, 150, 10);
+    pad.setVelocity(2);
+    pad.initialize();
+
+    let pad2 = new Paddle(0, 100, "cyan", "blue", "left paddle", ctx, 10, 150);
+    pad2.setVelocity(2);
+    pad2.initialize();
+
+    let pad3 = new Paddle(590, 100, "cyan", "blue", "right paddle", ctx, 10, 150);
+    pad3.setVelocity(2);
+    pad3.initialize();
+
+
+    //Creating a brick object
+    let brick1 = new Brick(200, 200, "black", "red", "brick1", ctx, 40, 20);
+    
+    //Creating a pentagon object
+    let pent1 = new Pentagon(200, 150, "black", "orange", "pentagon1", ctx, 25, 55);
+    // pent1.draw();
+
+    // Animate code
+    const listGameObj = [ball_1, pad, brick1, pent1, pad2, pad3];
+    //setInterval(function() {AnimateFrame(listGameObj, ctx);}, 50);
+    AnimateFrame(listGameObj, ctx, ball_rad);
+</script>
+
+</body>
+</html>
