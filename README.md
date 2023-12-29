@@ -13,7 +13,8 @@ To play the game, simply clone this repository and open the `index.html` file in
 
 ```bash
 git clone https://github.com/ylu149/Pin-Ball-Game.git
-cd [repository-name]
+unzip Pin-Ball-Game-main.zip
+cd Pin-Ball-Game-main
 ```
 
 ## How to Play
