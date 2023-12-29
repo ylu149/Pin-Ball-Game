@@ -14,3 +14,14 @@ To play the game, simply clone this repository and open the `index.html` file in
 ```bash
 git clone [repository-url]
 cd [repository-name]
+
+## How to Play
+- **Control the Paddles**: Use the arrow keys to control the paddles.
+- **Keep the Ball in Play**: The main objective is to keep the ball moving and in play for as long as possible.
+- **Score Points**: Get points every time a ball bounces off objects that aren't a paddle. 
+
+## Game Objects
+- **Ball**: A core element of the game, this is a bouncing ball that players must keep in motion.
+- **Paddle**: These are player-controlled elements used to hit the ball and keep it in play.
+- **Brick**: These are obstacles placed in the game area that can be broken by the ball to score points.
+- **Pentagon**: Unique game objects with special interactions (elaborate on this if your game includes such features).
