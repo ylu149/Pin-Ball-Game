@@ -1,7 +1,7 @@
 # Pinball-Esque Game
 
 ## Introduction
-Welcome to my Pinball-Esque Game, a dynamic and interactive game created with HTML, CSS, and JavaScript. This game combines classic pinball elements with modern web technologies to deliver an engaging and fun experience right in your web browser.
+Welcome to my work-in-progress pinball game, a dynamic and interactive game created with HTML, CSS, and JavaScript. This game combines classic pinball elements with modern web technologies to deliver an engaging and fun experience right in your web browser.
 
 ## Features
 - **Dynamic Objects**: Includes various game objects like balls, paddles, bricks, and more.
@@ -14,6 +14,7 @@ To play the game, simply clone this repository and open the `index.html` file in
 ```bash
 git clone [repository-url]
 cd [repository-name]
+```
 
 ## How to Play
 - **Control the Paddles**: Use the arrow keys to control the paddles.
