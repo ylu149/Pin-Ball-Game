@@ -11,10 +11,10 @@ Welcome to my work-in-progress pinball game, a dynamic and interactive game crea
 ## Installation
 To play the game, simply clone this repository and open the `index.html` file in a modern web browser.
 
+## Windows Download Instructions
 ```bash
 git clone https://github.com/ylu149/Pin-Ball-Game.git
-unzip Pin-Ball-Game-main.zip
-cd Pin-Ball-Game-main
+cd Pin-Ball-Game
 ```
 
 ## How to Play
