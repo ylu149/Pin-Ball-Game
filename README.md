@@ -28,3 +28,6 @@ start Game.html #For windows or just click on file
 - **Paddle**: These are player-controlled elements used to hit the ball and keep it in play.
 - **Brick**: These are obstacles placed in the game area that can be broken by the ball to score points.
 - **Pentagon**: Unique game objects with special interactions (elaborate on this if your game includes such features).
+
+## Issues
+-Collisions are currently implemented in a very rudimentary manner. Better game physics will probably need to be developed. 
