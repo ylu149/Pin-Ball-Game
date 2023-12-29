@@ -12,7 +12,7 @@ Welcome to my work-in-progress pinball game, a dynamic and interactive game crea
 To play the game, simply clone this repository and open the `index.html` file in a modern web browser.
 
 ```bash
-git clone [repository-url]
+git clone https://github.com/ylu149/Pin-Ball-Game.git
 cd [repository-name]
 ```
 
