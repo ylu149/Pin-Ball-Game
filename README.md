@@ -9,12 +9,13 @@ Welcome to my work-in-progress pinball game, a dynamic and interactive game crea
 - **Interactive Paddles**: Control paddles to keep the ball in play.
 
 ## Installation
-To play the game, simply clone this repository and open the `index.html` file in a modern web browser.
+To play the game, simply clone this repository and open the Game.html file in a modern web browser.
 
-## Windows Download Instructions
+## Download Instructions
 ```bash
 git clone https://github.com/ylu149/Pin-Ball-Game.git
 cd Pin-Ball-Game
+start Game.html #For windows or just click on file
 ```
 
 ## How to Play
