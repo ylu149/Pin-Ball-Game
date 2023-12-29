@@ -30,4 +30,4 @@ start Game.html #For windows or just click on file
 - **Pentagon**: Unique game objects with special interactions (elaborate on this if your game includes such features).
 
 ## Issues
--Collisions are currently implemented in a very rudimentary manner. Better game physics will probably need to be developed. 
+- **Collisions:** are currently implemented in a very rudimentary manner. Better game physics will probably need to be developed. 
